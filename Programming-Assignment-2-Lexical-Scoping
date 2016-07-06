@@ -19,6 +19,7 @@
 
 > cacheSolve <- function(x, ...) {
      m <- x$getinverse()
+     
      # Check if the inverse matrix has been calculated
      if(!is.null(m)) {
          message("getting cached data")
